@@ -1,0 +1,26 @@
+{
+  "name": "pm2project",
+  "version": "1.0.0",
+  "description": "pm2 node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiawang1024/pm2test.git"
+  },
+  "keywords": [
+    "pm2",
+    "nodejs"
+  ],
+  "author": "xiawang1024",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiawang1024/pm2test/issues"
+  },
+  "homepage": "https://github.com/xiawang1024/pm2test#readme",
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}
