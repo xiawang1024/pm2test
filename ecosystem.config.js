@@ -1,7 +1,7 @@
 /*
  * @Author: xiawang1024
  * @Date: 2022-03-11 15:00:38
- * @LastEditTime: 2022-03-11 17:18:35
+ * @LastEditTime: 2022-03-11 17:30:14
  * @LastEditors: xiawang1024
  * @Description: 
  * @FilePath: /pm2Project/ecosystem.config.js
@@ -40,7 +40,7 @@ module.exports = {
       env: {
         NODE_ENV: 'staginging'
       },
-      'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env staging',
+      'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env stagingtest',
     }
   }
 };
